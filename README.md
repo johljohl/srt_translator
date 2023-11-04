@@ -22,13 +22,13 @@ You can install them using pip:
 pip install spacy googletrans==4.0.0-rc1
 Also, you will need to download the English language model for spaCy:
 
-bash
+
 Copy code
 python -m spacy download en_core_web_sm
 Usage
 To use the script, run it from your command line:
 
-bash
+
 Copy code
 python srt_translator.py
 The GUI will prompt you to select the SRT file you wish to translate. After the file is selected, you will be asked where to save the translated file. The translation process will begin, and the progress will be displayed in the GUI.
